@@ -6,7 +6,7 @@ The Pomodoro Timer App is a productivity tool that helps users manage their work
 
 - User Authentication: Users can sign up and log in using their email and password. Google authentication is also available for convenience.
 - Pomodoro Timer: The app displays a 25-minute countdown timer for work sessions. Users can reset, pause, and start the timer as needed.
-- Break Timer: After completing a 25-minute work session, the app  shows take break when user click on short break it start break.
+- Break Timer: After completing a 25-minute work session, the app  shows take break when user click on short break it starts break session.
 - User-Friendly Interface: The app provides a clean and intuitive user interface, making it easy to manage work and break sessions.
 
 ![image](https://github.com/subramaneshwar/pomodoroapp/assets/42493880/2a9a5071-d6ae-41ec-949f-1ca1c88cf294)
