@@ -39,7 +39,7 @@ The app uses Firebase Authentication to securely manage user accounts. You can c
 2. Start a work session by clicking the "Start" button on the 25-minute timer.
 3. Use the "Pause" button to pause the timer if needed.
 4. Click "Reset" to reset the timer to 25 minutes.
-5. After completing a work session, a 5-minute break timer will start automatically.
+5. After completing a work session,it display take break and user can click on short break button a 5-minute break timer will start.
 6. Repeat the process to manage your work and break intervals effectively.
 
 Feel free to explore, contribute, and customize the Pomodoro Timer App according to your preferences and needs.
