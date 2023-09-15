@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Pomodoro Timer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Pomodoro Timer App is a productivity tool that helps users manage their work and break intervals efficiently. It's designed to enhance your focus and productivity by following the Pomodoro Technique, which consists of 25-minute work sessions followed by 5-minute breaks.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User Authentication: Users can sign up and log in using their email and password. Google authentication is also available for convenience.
+- Pomodoro Timer: The app displays a 25-minute countdown timer for work sessions. Users can reset, pause, and start the timer as needed.
+- Break Timer: After completing a 25-minute work session, the app  shows take break when user click on short break it start break.
+- User-Friendly Interface: The app provides a clean and intuitive user interface, making it easy to manage work and break sessions.
 
-### `npm start`
+![image](https://github.com/subramaneshwar/pomodoroapp/assets/42493880/2a9a5071-d6ae-41ec-949f-1ca1c88cf294)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js:** Used for building the user interface and managing components.
+- **Tailwind CSS:** Utilized for styling and creating a responsive design.
+- **React Router:** Enables navigation and routing within the app.
+- **Firebase:** Used for user authentication, including email/password and Google authentication.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository.
+2. Navigate to the project directory and run `npm install` to install dependencies.
+3. Set up Firebase for authentication and create a Firebase project.
+4. Configure Firebase in your project by adding the necessary configuration details (Firebase API keys, etc.).
+5. Run `npm start` to start the development server.
+6. Access the application in your web browser at the provided URL.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## User Authentication
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app uses Firebase Authentication to securely manage user accounts. You can choose to enable both email/password and Google authentication methods for your users.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Register or log in to the app using your email and password or Google account.
+2. Start a work session by clicking the "Start" button on the 25-minute timer.
+3. Use the "Pause" button to pause the timer if needed.
+4. Click "Reset" to reset the timer to 25 minutes.
+5. After completing a work session, a 5-minute break timer will start automatically.
+6. Repeat the process to manage your work and break intervals effectively.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feel free to explore, contribute, and customize the Pomodoro Timer App according to your preferences and needs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the [MIT License](LICENSE).
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
